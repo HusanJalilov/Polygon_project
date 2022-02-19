@@ -31,7 +31,15 @@ class Polygon:
             True if the polygon is valid
             False if the polygon is invalid
         """
-        pass
+        
+        polygon = self.vertices
+        if len(polygon) > 4:
+            return True
+        else:
+            return False
+        
+
+        
     
 
     # Distance between two points
